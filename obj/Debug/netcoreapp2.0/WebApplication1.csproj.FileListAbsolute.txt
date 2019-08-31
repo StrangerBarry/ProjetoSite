@@ -1,0 +1,22 @@
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojAssemblyReference.cache
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+C:\Users\TI\Desktop\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb
+G:\JEFERSON 2°\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+G:\JEFERSON 2°\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+G:\JEFERSON 2°\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+G:\JEFERSON 2°\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+G:\JEFERSON 2°\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
+G:\JEFERSON 2°\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojAssemblyReference.cache
+G:\JEFERSON 2°\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+G:\JEFERSON 2°\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+G:\JEFERSON 2°\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+G:\JEFERSON 2°\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+G:\JEFERSON 2°\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb

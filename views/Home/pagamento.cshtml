@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "pagamento";
+}
+
+<h2>pagamento</h2>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Bem vindo a Orlando!</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <ul>
+            <li><a href="index.htm" class="active">INICIO</a></li>
+            <li><a href="metro.htm">TRANSPORTE</a></li>
+            <li><a href="dicas.htm">DICAS</a></li>
+            <li><a href="cadastro.htm">CADASTRO</a></li>
+            <li><a href="restaurante.htm">PALPITE</a></li>
+            <li><a href="album.htm">ALBUM</a></li>
+            <li><a href="pagamento.htm">PLANOS</a></li>
+        </ul>
+        <div class="quadroprincipal">
+            <h1>Tour em Orlando</h1>
+            <h3>Orlando, 12 de junho de 2019.</h3>
+            <div class="quadroimagem" id="imagem11">
+            </div>
+            <div class="formulario">
+                <fieldset>
+                    <legend>Monte seu Tour</legend>
+                    <h3>Opcionais:</h3>
+                    <p>
+                        <input type="checkbox" name="opcional[]" class="etiquetas" value="500">
+                        Passeio pela Universal Studios. [500 &euro;]
+                    </p>
+                    <p>
+                        <input type="checkbox" name="opcional[]" class="etiquetas" value="630">
+                        Passeio pela Disney World. [630 &euro;]
+                    </p>
+                    <p>
+                        <input type="checkbox" name="opcional[]" class="etiquetas" value="200">
+                        Passeio pelo Discovery Cove. [200 &euro;]
+                    </p>
+                    <p>
+                        <input type="checkbox" name="opcional[]" class="etiquetas" value="15">
+                        Passeio pelo SeaWorld. [15 &euro;]
+                    </p>
+
+                    <button id="parcelamento" style="margin-left: 25%" onclick="calcularPasseio()">Valor das Parcelas</button>
+                </fieldset>
+                <span id="orcamento"></span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="js/action.js" type="text/javascript"></script>
+    </footer>
+</body>
+
+</html>
