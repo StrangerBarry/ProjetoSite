@@ -1,4 +1,13 @@
+@{
+    ViewData["Title"] = "Cadastro";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
 <form>
+    <fieldset class="border">
+        <b><legend> Informações Pessoais</legend></b>
+        <div class="container">
     <div class="form-group">
         <label for="formGroupExampleInput">Nome</label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome">
@@ -17,23 +26,99 @@
             <input type="text" class="form-control" id="inputPassword4" placeholder="Digite seu RG">
         </div>
     </div>
+    <fieldset class="border"></fieldset>
+    <b><legend>Filiação</legend></b>
     
-    <label for="formGroupExampleInput">Filiacao</label>
+    <br>
     <div class="form-row">
         <div class="form-group col-md-6">
-            <label for="inputEmail4">Nome do Pai</label>
+            <label for="inputEmail4">Nome do Pai:</label>
             <input type="text" class="form-control" id="inputEmail4" placeholder="Nome do Pai">
         </div>
         <div class="form-group col-md-6">
-            <label for="inputPassword4">Nome da Mae</label>
-            <input type="text" class="form-control" id="inputPassword4" placeholder="Nome da Mae">
+            <label for="inputPassword4">Nome da Mãe:</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Nome da Mãe">
         </div>
     </div>
 </form>
 
 
-<label for="formGroupExampleInput">Dados Estudantis</label>
+<b><legend>Dados Estudantis</legend></b>
 <div class="form-check">
-    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+  <input class="form-check-input" type="checkbox" value="" id="aluno">
+  <label class="form-check-label" for="aluno">
+    Aluno
+  </label>
 </div>
+<div class="col-sm-4">
+            <label for="inputmatricula">Matrícula</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder=" ">
+        </div>
+        <div class="col-sm-4">
+            <label for="inputturma">Turma</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder=" ">
+        </div>
+        <div class="col-sm-4">
+            <label for="inputhorario">Horário</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder=" ">
+        </div>
 
+<b><legend>Contatos</legend></b>
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputcelular">Tel. Celular</label>
+      <input type="Celular" class="form-control" id="Celular" placeholder="Celular">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputResidencial">Tel. Residencial</label>
+      <input type="Residencial" class="form-control" id="Residencial" placeholder="Residencial">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputcelular">Tel. Recado</label>
+      <input type="Recado" class="form-control" id="Recado" placeholder="Recado">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputResidencial">Nome do Contato</label>
+      <input type="nome" class="form-control" id="Nome" placeholder="Nome do Contato">
+    </div>
+  </div>
+   <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputcelular">Email</label>
+      <input type="Email" class="form-control" id="Email" placeholder="Digite seu email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputResidencial">Página Pessoal</label>
+      <input type="pagina" class="form-control" id="pagina" placeholder="Página">
+    </div>
+  </div> 
+<b><legend>Endereço</legend></b>
+    <div class="form-group col-md-6">
+      <label for="inputResidencial">CEP</label>
+      <input type="cep" class="form-control" id="cep" placeholder="*****-***">
+    </div>
+  </div> 
+      <div class="form-group col-md-6">
+      <label for="inputResidencial">Logradouro</label>
+      <input type="Logradouro" class="form-control" id="Logradouro" placeholder="Logradouro">
+    </div>
+  <div class="form-group col-md-6">
+      <label for="inputResidencial">Número</label>
+      <input type="Número" class="form-control" id="Numero" placeholder="Número">
+    </div>
+     <div class="form-group col-md-6">
+      <label for="inputResidencial">Cidade</label>
+      <input type="cidade" class="form-control" id="cidade" placeholder="cidade">
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputUF">UF</label>
+      <input type="text" class="form-control" id="inputUF">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputResidencial">Ponto de Referência</label>
+      <input type="Referência" class="form-control" id="Referência" placeholder="Referência">
+    </div>
+    <button type="button" class="btn btn-success">Cadastrar</button>
+    <button type="button" class="btn btn-danger">Cancelar</button>
